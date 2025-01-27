@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_angular_provider">
+    <sp_angular_provider action="INSERT_OR_UPDATE">
+        <name>deleteButtonConfirm</name>
+        <script><![CDATA[function(){
+    return{
+      template:  '<div class="col-md-1"><button class="btn btn-danger pull-right" ng-click="c.confirmDelete()"><span class="glyphicon glyphicon-trash"></span></button></div>',
+      restrict: 'E' 
+      
+    };
+  }
+
+]]></script>
+        <sys_class_name>sp_angular_provider</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-26 09:29:22</sys_created_on>
+        <sys_id>00544f8283975210b067f496feaad379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>deleteButtonConfirm</sys_name>
+        <sys_package display_value="CreateNotes" source="x_snc_createnotes">df5fd9a5090232007f44e1046c8ff69f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CreateNotes">df5fd9a5090232007f44e1046c8ff69f</sys_scope>
+        <sys_update_name>sp_angular_provider_00544f8283975210b067f496feaad379</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-26 09:29:22</sys_updated_on>
+        <type>directive</type>
+    </sp_angular_provider>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>00544f8283975210b067f496feaad379</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-01-26 09:29:22</sys_created_on>
+        <sys_id>ed844f8283975210b067f496feaad37e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-01-26 09:29:22</sys_updated_on>
+        <table>sp_angular_provider</table>
+        <use_es_latest>false</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
